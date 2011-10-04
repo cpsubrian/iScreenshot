@@ -1,3 +1,3 @@
-# Node - FreedomConnector
+# iScreenShort
 
-Experiments and a playground for a node.js version of FreedomConnector.
+Guaranteed to make your product look 352% better.
