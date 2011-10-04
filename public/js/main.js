@@ -11,7 +11,7 @@
         height = 400;
 
     camera = new THREE.Camera( 75, width / height, 1, 10000 );
-    camera.position.z = 400;
+    camera.position.z = 550;
 
     scene = new THREE.Scene();
 
@@ -24,7 +24,7 @@
       [ new THREE.MeshBasicMaterial( { map: THREE.ImageUtils.loadTexture( '/images/iphone-rear.png' ) } ) ]
     ];
 
-    cube = new THREE.CubeGeometry( 200, 400, 20, 1, 1, 1, materials );
+    cube = new THREE.CubeGeometry( 254, 493, 30, 1, 1, 1, materials );
     mesh = new THREE.Mesh( cube, new THREE.MeshFaceMaterial() );
     scene.addObject( mesh );
 
